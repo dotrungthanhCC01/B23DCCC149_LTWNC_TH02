@@ -1,0 +1,46 @@
+{
+  "logAdd": [
+    "action assignments/addAssignment @ 15:50:27.424",
+    "console.groupEnd",
+    "prev state {\"assignments\":{\"items\":[{\"id\":\"1\",\"subject\":\"Cấu trúc dữ liệu & Giải thuật\",\"title\":\"Bài tập cây AVL\",\"deadline\":\"2026-10-08\",\"priority\":\"high\",\"comp…",
+    "action {\"type\":\"assignments/addAssignment\",\"payload\":{\"subject\":\"Lập trình Web\",\"title\":\"Bai tap demo TH02\",\"deadline\":\"2030-12-31\",\"priority\":\"high\"}}",
+    "next state {\"assignments\":{\"items\":[{\"subject\":\"Lập trình Web\",\"title\":\"Bai tap demo TH02\",\"deadline\":\"2030-12-31\",\"priority\":\"high\",\"id\":\"1791276627424\",\"comple…"
+  ],
+  "cardId": "1791276627424",
+  "logComplete": [
+    "action assignments/toggleComplete @ 15:50:28.151",
+    "console.groupEnd",
+    "prev state {\"assignments\":{\"items\":[{\"subject\":\"Lập trình Web\",\"title\":\"Bai tap demo TH02\",\"deadline\":\"2030-12-31\",\"priority\":\"high\",\"id\":\"1791276627424\",\"comple…",
+    "action {\"type\":\"assignments/toggleComplete\",\"payload\":\"1791276627424\"}",
+    "next state {\"assignments\":{\"items\":[{\"subject\":\"Lập trình Web\",\"title\":\"Bai tap demo TH02\",\"deadline\":\"2030-12-31\",\"priority\":\"high\",\"id\":\"1791276627424\",\"comple…"
+  ],
+  "logDelete": [
+    "action assignments/deleteAssignment @ 15:50:28.785",
+    "console.groupEnd",
+    "prev state {\"assignments\":{\"items\":[{\"subject\":\"Lập trình Web\",\"title\":\"Bai tap demo TH02\",\"deadline\":\"2030-12-31\",\"priority\":\"high\",\"id\":\"1791276627424\",\"comple…",
+    "action {\"type\":\"assignments/deleteAssignment\",\"payload\":\"1791276627424\"}",
+    "next state {\"assignments\":{\"items\":[{\"id\":\"1\",\"subject\":\"Cấu trúc dữ liệu & Giải thuật\",\"title\":\"Bài tập cây AVL\",\"deadline\":\"2026-10-08\",\"priority\":\"high\",\"comp…"
+  ],
+  "pin": {
+    "firstBefore": "Cấu trúc dữ liệu & Giải thuậtBài tập cây",
+    "firstAfter": "Chủ nghĩa xã hội khoa họcTiểu luận cuối "
+  },
+  "themeCardRenders": 0,
+  "lazyRequests": [
+    "http://localhost:5173/src/components/StatsPage.tsx"
+  ],
+  "baseline": {
+    "generateMs": 2606,
+    "domCards": 10000,
+    "renders": 34996,
+    "typeMs": 5353,
+    "domAfter": 20
+  },
+  "optimized": {
+    "generateMs": 200,
+    "domCards": 9,
+    "renders": 40,
+    "typeMs": 1514,
+    "domAfter": 20
+  }
+}

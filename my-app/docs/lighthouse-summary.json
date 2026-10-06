@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "score": 67,
+    "FCP": "1.8 s",
+    "LCP": "2.3 s",
+    "TBT": "2,460 ms",
+    "CLS": "0",
+    "SI": "4.0 s",
+    "dom": "154,031 elements"
+  },
+  "optimized": {
+    "score": 97,
+    "FCP": "1.8 s",
+    "LCP": "1.9 s",
+    "TBT": "140 ms",
+    "CLS": "0",
+    "SI": "2.7 s",
+    "dom": "180 elements"
+  }
+}

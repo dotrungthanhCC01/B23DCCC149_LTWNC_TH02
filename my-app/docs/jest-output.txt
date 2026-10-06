@@ -1,0 +1,25 @@
+PASS src/__tests__/helpers.test.ts (7.32 s)
+PASS src/__tests__/assignmentsSlice.test.ts (7.662 s)
+PASS src/__tests__/useDebounce.test.ts (7.849 s)
+PASS src/__tests__/AssignmentList.test.tsx (8.56 s)
+PASS src/__tests__/AssignmentCard.test.tsx (10.808 s)
+PASS src/__tests__/AddAssignmentForm.test.tsx (12.047 s)
+----------------------|---------|----------|---------|---------|-------------------
+File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------------------|---------|----------|---------|---------|-------------------
+All files             |   89.24 |       50 |   85.71 |   89.28 |                   
+ assignments          |   88.37 |    45.83 |    82.6 |    88.6 |                   
+  assignmentsSlice.ts |     100 |       75 |     100 |     100 | 27                
+  mockApi.ts          |      50 |      100 |      25 |      50 | 78-88             
+  sampleData.ts       |     100 |      100 |     100 |     100 |                   
+  types.ts            |   80.95 |    14.28 |      75 |   84.21 | 43-45             
+  utils.ts            |     100 |      100 |     100 |     100 |                   
+ pins                 |     100 |      100 |     100 |     100 |                   
+  usePinStore.ts      |     100 |      100 |     100 |     100 |                   
+----------------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 6 passed, 6 total
+Tests:       31 passed, 31 total
+Snapshots:   0 total
+Time:        33.549 s
+Ran all test suites.
